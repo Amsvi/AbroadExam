@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.container input[type='text'] {
+  border-radius: var(--radius);
+  border: 2px solid;
+  border-color: var(--primary);
+  width: 400px;
+}
+
+.container button {
+  position: relative;
+  top: 0.3rem;
+
+  background: transparent;
+  border: none;
+}
+
+.container select {
+  width: 150px;
+  border: 2px solid;
+  border-color: var(--primary);
+  border-radius: var(--radius);
+  background-position-y: calc(100% - 0.8rem);
+}

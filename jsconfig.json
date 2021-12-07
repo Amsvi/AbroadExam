@@ -1,0 +1,12 @@
+{
+    "lib": [
+        "es7",
+        "es2017.object",
+        "dom"
+    ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "removeComments": true,
+        "sourceMap": true
+    }
+}

@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding: 2rem 0;
+}
+
+.form input[type='text'],
+.form input[type='password'] {
+  width: 350px;
+  height: 55px;
+  margin-bottom: 0.2rem;
+  background-color: var(--bg-input);
+}
+
+.form input[type='checkbox'] {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+.radio_label {
+  font-size: 11px !important;
+  margin: 0 5px;
+}
+
+.submit_button {
+  background-color: var(--accent-button);
+  height: 3rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 1rem;
+}
+.step2_container {
+  display: flex;
+}
+
+.step2_item {
+  width: 200px;
+  height: 273px;
+  background-color: #e8edfc;
+  border-radius: 15px;
+}

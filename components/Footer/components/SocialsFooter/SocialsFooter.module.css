@@ -1,0 +1,7 @@
+.container_socials {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 1rem 2rem;
+  flex: 1 1 auto;
+}
